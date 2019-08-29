@@ -1,0 +1,6 @@
+applications:
+- name: CountMeIn
+  memory: 1G
+  path: target\Sport-0.0.1-SNAPSHOT.jar
+  services:
+    - mysqldb
